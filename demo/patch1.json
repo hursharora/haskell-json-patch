@@ -1,0 +1,5 @@
+[
+    { "op": "add", "path": "/0/final", "value": "Dec 12th" },
+    { "op": "test", "path": "/0/final", "value": "Dec 12th" }
+]
+  

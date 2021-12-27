@@ -1,0 +1,14 @@
+[
+  {
+    "name": "cpsc312",
+    "room": "DMP310"
+  },
+  {
+    "name": "cpsc310",
+    "room": "Online"
+  },
+  {
+    "name": "cpsc210",
+    "room": "Online"
+  }
+]

@@ -1,0 +1,6 @@
+/.stack-work
+/dist
+/dist-newstyle
+*.cabal
+.idea
+.vscode

@@ -1,0 +1,8 @@
+resolver: lts-18.13
+compiler-check: newer-minor
+
+packages:
+- .
+
+extra-deps:
+- strings-1.1@sha256:0285dec4c8ab262359342b3e5ef1eb567074669461b9b38404f1cb870c881c5c,1617

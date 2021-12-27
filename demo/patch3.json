@@ -1,0 +1,30 @@
+[
+    { "op": "add", "path": "/-", 
+        "value": { "name": "cpsc110", "final": "Dec 17th", "copied": true }
+    },
+    { "op": "test", "path": "/3", 
+        "value": { "name": "cpsc110", "final": "Dec 17th", "copied": true }
+    },
+
+    { "op": "copy", "from": "/3", "path": "/4" },
+    { "op": "test", "path": "/4", 
+        "value": { "name": "cpsc110", "final": "Dec 17th", "copied": true }
+    },
+
+    { "op": "replace", "path": "/4/name", "value": "CPSC412" },
+    { "op": "test", "path": "/4", 
+        "value": { "name": "CPSC412", "final": "Dec 17th", "copied": true } 
+    },
+
+    { "op": "remove", "path": "/3" },
+    { "op": "test", "path": "/3", 
+        "value": { "name": "CPSC412", "final": "Dec 17th", "copied": true }  
+    },
+
+    { "op": "add", "path": "/0/src", "value": "Movable" },
+    { "op": "test", "path": "/0/src", "value": "Movable" },
+
+    { "op": "move", "from": "/0/src", "path": "/3/dest" },
+    { "op": "test", "path": "/3/dest", "value": "Movable" }
+]
+  

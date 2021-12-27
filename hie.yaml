@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-json-parse:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-json-parse:exe:haskell-json-parse-exe"
+
+    - path: "./app/Paths_haskell_json_parse.hs"
+      component: "haskell-json-parse:exe:haskell-json-parse-exe"
+
+    - path: "./test"
+      component: "haskell-json-parse:test:haskell-json-parse-test"

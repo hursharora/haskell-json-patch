@@ -1,0 +1,13 @@
+[
+    { "op": "add", "path": "/0/final", "value": "Dec 12th" },
+    { "op": "test", "path": "/0/final", "value": "Dec 12th" },
+
+    { "op": "replace", "path": "/0/final", "value": "Dec 22th" },
+    { "op": "test", "path": "/0/final", "value": "Dec 22th" },
+
+    { "op": "add", "path": "/1/final", "value": "Dec 13th" },
+    { "op": "test", "path": "/1/final", "value": "Dec 13th" },
+
+    { "op": "copy", "from": "/0/final" , "path": "/2/final" },
+    { "op": "test", "path": "/2/final", "value": "Dec 22th" }
+]
